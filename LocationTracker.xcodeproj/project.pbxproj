@@ -14,6 +14,13 @@
 		C28874861E97B3B100E2EB34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28874841E97B3B100E2EB34 /* LaunchScreen.storyboard */; };
 		C28874911E97B3B400E2EB34 /* LocationTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28874901E97B3B400E2EB34 /* LocationTrackerTests.swift */; };
 		C288749C1E97B3B400E2EB34 /* LocationTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C288749B1E97B3B400E2EB34 /* LocationTrackerUITests.swift */; };
+		C28874AB1E97B42800E2EB34 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28874AA1E97B42800E2EB34 /* CoreLocation.framework */; };
+		C28874AD1E97B43500E2EB34 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C28874AC1E97B43500E2EB34 /* MapKit.framework */; };
+		C2A895AC1E9A142C00219525 /* colorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2A895AB1E9A142C00219525 /* colorExtension.swift */; };
+		C2D2FA0F1E99604300DB0CD2 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D2FA0E1E99604300DB0CD2 /* Icon-60@2x.png */; };
+		C2D2FA111E99607B00DB0CD2 /* circleimage1.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D2FA101E99607B00DB0CD2 /* circleimage1.png */; };
+		C2D2FA141E9974E200DB0CD2 /* Double Left.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D2FA121E9974E200DB0CD2 /* Double Left.png */; };
+		C2D2FA151E9974E200DB0CD2 /* Double Right.png in Resources */ = {isa = PBXBuildFile; fileRef = C2D2FA131E9974E200DB0CD2 /* Double Right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		C28874971E97B3B400E2EB34 /* LocationTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C288749B1E97B3B400E2EB34 /* LocationTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTrackerUITests.swift; sourceTree = "<group>"; };
 		C288749D1E97B3B400E2EB34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28874AA1E97B42800E2EB34 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C28874AC1E97B43500E2EB34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C2A895AB1E9A142C00219525 /* colorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colorExtension.swift; sourceTree = "<group>"; };
+		C2D2FA0E1E99604300DB0CD2 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		C2D2FA101E99607B00DB0CD2 /* circleimage1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circleimage1.png; sourceTree = "<group>"; };
+		C2D2FA121E9974E200DB0CD2 /* Double Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double Left.png"; sourceTree = "<group>"; };
+		C2D2FA131E9974E200DB0CD2 /* Double Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Double Right.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C28874AD1E97B43500E2EB34 /* MapKit.framework in Frameworks */,
+				C28874AB1E97B42800E2EB34 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,7 @@
 				C288748F1E97B3B300E2EB34 /* LocationTrackerTests */,
 				C288749A1E97B3B400E2EB34 /* LocationTrackerUITests */,
 				C28874791E97B3B100E2EB34 /* Products */,
+				C28874A91E97B42700E2EB34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +116,12 @@
 			children = (
 				C288747B1E97B3B100E2EB34 /* AppDelegate.swift */,
 				C288747D1E97B3B100E2EB34 /* ViewController.swift */,
+				C2A895AB1E9A142C00219525 /* colorExtension.swift */,
 				C288747F1E97B3B100E2EB34 /* Main.storyboard */,
+				C2D2FA0E1E99604300DB0CD2 /* Icon-60@2x.png */,
+				C2D2FA121E9974E200DB0CD2 /* Double Left.png */,
+				C2D2FA131E9974E200DB0CD2 /* Double Right.png */,
+				C2D2FA101E99607B00DB0CD2 /* circleimage1.png */,
 				C28874821E97B3B100E2EB34 /* Assets.xcassets */,
 				C28874841E97B3B100E2EB34 /* LaunchScreen.storyboard */,
 				C28874871E97B3B100E2EB34 /* Info.plist */,
@@ -123,6 +145,15 @@
 				C288749D1E97B3B400E2EB34 /* Info.plist */,
 			);
 			path = LocationTrackerUITests;
+			sourceTree = "<group>";
+		};
+		C28874A91E97B42700E2EB34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C28874AC1E97B43500E2EB34 /* MapKit.framework */,
+				C28874AA1E97B42800E2EB34 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +265,11 @@
 			files = (
 				C28874861E97B3B100E2EB34 /* LaunchScreen.storyboard in Resources */,
 				C28874831E97B3B100E2EB34 /* Assets.xcassets in Resources */,
+				C2D2FA111E99607B00DB0CD2 /* circleimage1.png in Resources */,
 				C28874811E97B3B100E2EB34 /* Main.storyboard in Resources */,
+				C2D2FA141E9974E200DB0CD2 /* Double Left.png in Resources */,
+				C2D2FA0F1E99604300DB0CD2 /* Icon-60@2x.png in Resources */,
+				C2D2FA151E9974E200DB0CD2 /* Double Right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2A895AC1E9A142C00219525 /* colorExtension.swift in Sources */,
 				C288747E1E97B3B100E2EB34 /* ViewController.swift in Sources */,
 				C288747C1E97B3B100E2EB34 /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +541,7 @@
 				C28874A21E97B3B400E2EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C28874A31E97B3B400E2EB34 /* Build configuration list for PBXNativeTarget "LocationTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +550,7 @@
 				C28874A51E97B3B400E2EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C28874A61E97B3B400E2EB34 /* Build configuration list for PBXNativeTarget "LocationTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +559,7 @@
 				C28874A81E97B3B400E2EB34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
